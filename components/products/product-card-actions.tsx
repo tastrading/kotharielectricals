@@ -21,7 +21,7 @@ export function ProductCardActions({ productName }: ProductCardActionsProps) {
         e.preventDefault();
         e.stopPropagation();
         const text = `Hi, I am interested in ${productName}.`;
-        window.open(`https://wa.me/919391079492?text=${encodeURIComponent(text)}`, '_blank');
+        window.open(`https://wa.me/919246564652?text=${encodeURIComponent(text)}`, '_blank');
     };
 
     return (

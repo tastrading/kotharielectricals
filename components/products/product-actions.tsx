@@ -20,7 +20,7 @@ export function ProductActions({ productName }: { productName: string }) {
                 <button
                     onClick={() => {
                         const message = `Hi, I am interested in ${productName}. Please share more details.`;
-                        const url = `https://wa.me/919391079492?text=${encodeURIComponent(message)}`;
+                        const url = `https://wa.me/919246564652?text=${encodeURIComponent(message)}`;
                         window.open(url, '_blank');
                     }}
                     className="py-4 border border-[#E5E5E5] text-gray-600 font-bold uppercase tracking-widest hover:border-[#25D366] hover:text-[#25D366] transition-colors text-xs"
